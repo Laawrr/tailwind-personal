@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="../src/assets/styles.css">
+    <link rel="stylesheet" href="../src/assets/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../src/assets/motion-tailwind.css">
+    <title>Personal Blog</title>
+</head>
+
+<body class="bg-gray-900">
+    <nav class="flex  items-center blur-3xl justify-between flex-wrap w-max ">
+        <div class="container mx-auto px-4 py-2 flex justify-center">
+            <ul class="flex space-x-4 text-white">
+                <li><a href="#home" class="hover:text-indigo-400">Home</a></li>
+                <li><a href="#services" class="hover:text-indigo-400">Services</a></li>
+                <li><a href="#contact" class="hover:text-indigo-400">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="home overflow-hidden">
+        <video class="video-bg mt-10" autoplay muted loop>
+            <source src="../src/assets/background.mp4" type="video/mp4">
+        </video>
+
+        <div class="font-sans min-h-screen flex justify-center items-center ">
+            <div class="card custom-bg w-full max-w-4xl mt-20 pb-28 mx-auto shadow-xl hover:shadow">
+                <img class="w-32 h-32 object-cover mx-auto rounded-full -mt-20 border-8 border-white"
+                    src="../src/assets/profile.jpg" alt="profile-img">
+                <div class="text-center mt-2 text-3xl font-medium">Lawrence Pag-iwayan</div>
+                <div class="text-center mt-2 font-light text-sm">@laawrr</div>
+                <div class="mt-16 text-center font-normal text-lg">About Me</div>
+                <div class="px-6 mt-2 w-full max-w-3xl mx-auto">
+                    <div class="text-center font-light text-base">
+                        <p>
+                            I’m a passionate IT professional with a broad interest in technology and its impact on our
+                            daily lives. With a background in various aspects of IT, from system administration to
+                            software development, I thrive on solving complex problems and optimizing systems for
+                            efficiency. My journey in technology has been driven by a curiosity for how things work and
+                            a desire to innovate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+ 
+    <section id="services" class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-white mb-20">Services</h1>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                <div class="p-4 md:w-1/3 flex">
+                    <div
+                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow pl-6">
+                        <h2 class="text-white text-lg title-font font-medium mb-2">Threat Detection & Response</h2>
+                        <p class="leading-relaxed text-base ">Utilizing cutting-edge tools and techniques, I provide advanced threat detection and response services. I monitor your systems for suspicious activity, analyze potential threats, and implement rapid response strategies to mitigate risks.</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 flex">
+                    <div
+                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <circle cx="6" cy="6" r="3"></circle>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow pl-6">
+                        <h2 class="text-white text-lg title-font font-medium mb-2">SQL & Database Design</h2>
+                        <p class="leading-relaxed text-base">I specialize in designing and optimizing SQL databases tailored to your specific needs. From defining constraints to structuring tables, I ensure your data is organized, secure, and easily accessible.</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 flex">
+                    <div
+                        class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="flex-grow pl-6">
+                        <h2 class="text-white text-lg title-font font-medium mb-2">Web Development</h2>
+                        <p class="leading-relaxed text-base">I offer comprehensive web development services, from designing intuitive user interfaces to implementing dynamic features. Whether you're looking for custom animations, responsive designs, or secure functionalities, I ensure your website meets all your needs. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container flex flex-col mx-auto" > 
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-white -mb-10">Contact Information</h1>
+            <div class="w-full">
+                <div class="container flex flex-col items-center gap-16 mx-auto my-32">
+                    <div class="grid w-full grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+                        <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
+                            <span>
+                                <i class="fas fa-envelope fa-2x text-purple-blue-500"></i>
+                            </span>
+                            <p class="text-2xl font-extrabold text-dark-grey-900">Email</p>
+                            <p class="text-base leading-7 text-dark-grey-600">Contact me at</p>
+                            <a class="text-lg font-bold text-purple-blue-500">lawrence@gmail.com</a>
+                        </div>
+                        <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
+                            <span>
+                                <i class="fas fa-phone-alt fa-2x text-purple-blue-500"></i>
+                            </span>
+                            <p class="text-2xl font-extrabold text-dark-grey-900">Phone</p>
+                            <p class="text-base leading-7 text-dark-grey-600">Reach out to me by phone</p>
+                            <a class="text-lg font-bold text-purple-blue-500">+63938 232 6740</a>
+                        </div>
+                        <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
+                            <span>
+                                <i class="fas fa-map-marker-alt fa-2x text-purple-blue-500"></i>
+                            </span>
+                            <p class="text-2xl font-extrabold text-dark-grey-900">Location</p>
+                            <p class="text-base leading-7 text-dark-grey-600">Find me</p>
+                            <a class="text-lg font-bold text-purple-blue-500">Butuan City Philippines</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class=" text-center py-4 mt-auto">
+        <p class="text-gray-700">&copy; 2024. All rights reserved.</p>
+        <div class="flex justify-center mt-4 space-x-4">
+            <a href="https://www.facebook.com/laawrr" target="_blank" class="text-gray-700 hover:text-gray-900">
+                <i class="fab fa-facebook-f"></i>
+                <span class="sr-only">Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/asdjklawr" target="_blank" class="text-gray-700 hover:text-gray-900">
+                <i class="fab fa-instagram"></i>
+                <span class="sr-only">Instagram</span>
+            </a>
+            <a href="https://github.com/laawrr" target="_blank" class="text-gray-700 hover:text-gray-900">
+                <i class="fab fa-github"></i>
+                <span class="sr-only">GitHub</span>
+            </a>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top" ><span class="fas fa-arrow-up"></span> back to top</button>
+    <script src="../src/assets/script.js"></script>
+</body>
+
+</html>
